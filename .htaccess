@@ -1,0 +1,9 @@
+ErrorDocument 404 http://localhost/MyProfile/pagenotfound.php
+ErrorDocument 403 http://localhost/MyProfile/pagenotfound.php
+Options -Indexes
+
+
+
+
+
+

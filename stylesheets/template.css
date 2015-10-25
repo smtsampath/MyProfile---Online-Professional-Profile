@@ -1,0 +1,196 @@
+/* 
+#################################################
+#	Author	:	S.M.Thushara Sampath	#
+#	ID	:	K0191622		#
+#	Page	:	template.css		#
+#################################################
+*/
+@charset "iso-8859-1";
+body {
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color:#999; 
+	color: #000000; /*black*/
+}
+/*===============indicates no border around any image ============*/
+body img {
+	border: 0px;
+	text-decoration: none;
+}
+/* ============ margins auto center the container on the page ==========*/
+#container {
+	margin: 10px auto 10px auto;
+	padding: 30px;
+	background-color: #ffffff;
+	width: 80%;
+	max-width: 1300px;
+	border: 1px solid #09C ;
+}
+/*=================== styles for top banner ========================*/
+#banner {
+	text-align:left;
+}
+/*=================== styles for top menu ======================*/
+
+.mattblacktabs {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #09C; /*bottom horizontal line that runs beneath tabs*/	
+	background-color:#09C;
+}
+.mattblacktabs ul {
+	margin: 0;
+	padding: 0;
+	padding-left: 10px; /*offset of tabs relative to browser left edge*/;
+	font: bold .9em Verdana;
+	list-style-type: none;
+}
+.mattblacktabs li {
+	display: inline;
+	margin: 0;
+}
+.mattblacktabs li a {
+	float: left;
+	display: block;
+	text-decoration: none;
+	margin: 0;
+	padding: 7px 8px; /*padding inside each tab*/	
+	border-right: 1px solid white; /*right divider between tabs*/	
+	color:#FFFFFF;
+	background:#09C; /*background of tabs (default state)*/
+}
+.mattblacktabs li a:visited {
+	color: white;
+}
+.mattblacktabs li a:hover, .mattblacktabs li.selected a {
+	background:#036;
+}
+/*====================== styles for main content area =========================*/
+#content {
+/*	padding: 5px 30px 5px 30px;
+	margin: 5px 30px 5px 30px;*/
+	background-color: #FFFFFF;
+	color: inherit;
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	height:auto;
+	padding:5px;
+	
+}
+#ad_content {
+/*	padding: 5px 30px 5px 30px;
+	margin: 5px 30px 5px 30px;*/
+	background-color: #FFFFFF;
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 725px;
+	height:auto;
+	padding:5px;
+	margin-bottom:10px;
+	
+}
+
+
+/*===========content area list items==============*/
+#content ul li {
+	list-style-image: url('images/di_lb.gif');
+	margin: 2px;
+	padding: 2px;
+}
+#content li li {
+	list-style-image: url('images/di_lb.gif');
+	padding: 2px 0;
+}
+
+
+/*============== Styles for footer ===================*/
+#footer {
+	border-color: #09C;
+	border-width: thin;
+	clear: both;
+	padding: 5px;
+	background-color: rgb(255, 255, 255);
+	text-align: left;
+	border-top-style: solid;
+}
+#footer p {
+	font-size:11px; font-weight:lighter; color:#1D4664;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/*================== general styles =================*/
+hr {
+	width: 50%;
+	text-align: center;
+	background-color: #1D4664;
+	height: 5px;
+}
+/* =================Styles for heading tags =============== */
+h1, h2, h3, h4 {
+	color: #1D4664;
+	background-color: inherit;
+}
+h1 {
+	padding: 5px;
+	font-size: 1.5em;
+}
+h2 {
+	font-size: 1em;
+}
+h3 {
+	font-size: .9em;
+}
+h4 {
+	font-size: .9em;
+}
+/*================used to center anything==============*/
+.center {
+	text-align: center;
+}
+
+/* ============floats images to right or left ============*/
+.imgrgt {
+	 float:right;
+	 padding: 7px;
+}
+.imglft {
+	 float:left;
+	 padding: 7px;
+}
+.smtxt {
+	font-size:small;
+}
+
+/* =========== link styles =============*/
+
+a:link {
+	font-weight: bold;
+	color:#09C;
+	background: transparent;
+	text-decoration:none;
+}
+a:visited {
+	font-weight: bold;
+	color:#09C;
+	background: transparent;
+	padding: 0px;
+	text-decoration:none;
+}
+a:hover {
+	font-weight: bold;
+	text-decoration : none;
+	
+	color:#036;
+}
+a:active {
+	font-weight: bold;
+	text-decoration :none;
+}
+
